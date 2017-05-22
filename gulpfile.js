@@ -19,6 +19,7 @@ var nipponColor = require('postcss-nippon-color');
 var rucksack = require('gulp-rucksack');
 var fontMagician = require('postcss-font-magician');
 var webpack = require('gulp-webpack');
+var lost = require('lost');
 
 var devBuild = (process.env.NODE_ENV !== 'production');
 
@@ -79,6 +80,7 @@ gulp.task('css', ['images', 'fonts'], function() {
     fontMagician({
       hosted: [folder.src + 'fonts']
     }),
+    lost(),
     nipponColor,
     rucksack,
     mqpacker,
