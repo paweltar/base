@@ -1,16 +1,4 @@
-## You can use this template as a starting point for building static sites. ##
-
-### What's included?
-
- - [Sass](http://sass-lang.com/)
- - [Panini](https://github.com/zurb/panini)
- - [UIkit 3](https://getuikit.com/)
- - [jQuery](https://jquery.com/)
- - [Browsersync](https://www.browsersync.io/)
- - [Autoprefixer](https://github.com/postcss/autoprefixer)
- - [Image optimization](https://github.com/sindresorhus/gulp-imagemin)
- - [CSSNext](http://cssnext.io/)
- - [Full list on website](http://curator-anthony-10830.netlify.com/)
+## Pure Base Template
 
 ### Usage
 
