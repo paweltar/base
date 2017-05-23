@@ -1,5 +1,9 @@
 @import "imports.scss";
 
+img {
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
 .section-one {
   background-color: nippon-color();
 }
@@ -9,5 +13,9 @@
 }
 
 .section-three {
+  background-color: nippon-color();
+}
+
+.section-four {
   background-color: nippon-color();
 }

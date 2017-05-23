@@ -1,5 +1,8 @@
 section {
-  lost-center: 980px;
-  lost-align: center flex;
   height: 100vh;
+  div {
+    lost-column: 1/3;
+    height: 100%;
+    lost-align: center flex;
+  }
 }
