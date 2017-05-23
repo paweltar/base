@@ -5,6 +5,7 @@ import Rellax from 'rellax';
 
 $(document).ready(function() {
   AOS.init({
+      disable: window.innerWidth < 960,
       offset: 200,
       duration: 600,
       easing: 'ease-in-sine',

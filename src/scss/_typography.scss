@@ -10,3 +10,8 @@ $font-print-secondary: "Georgia", "Times New Roman", "Times", serif;
 body {
   font-family: $font-primary;
 }
+
+.section-subheader {
+  text-align: center;
+  lost-center: 980px;
+}
