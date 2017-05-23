@@ -1,0 +1,12 @@
+@import url(//brick.a.ssl.fastly.net/Playfair+Display:400,700);
+
+// Font families example
+$font-primary: "Playfair Display", "Arial", sans-serif;
+$font-secondary: "Playfair Display", "Arial", sans-serif;
+$font-mono: "Consolas", monospace;
+$font-print-primary: "Georgia", "Times New Roman", "Times", serif;
+$font-print-secondary: "Georgia", "Times New Roman", "Times", serif;
+
+body {
+  font-family: $font-primary;
+}

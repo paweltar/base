@@ -1,8 +1,34 @@
 section {
   height: 100vh;
-  div {
-    lost-column: 1/3;
-    height: 100%;
-    lost-align: center flex;
-  }
+}
+
+.section-one>div {
+  lost-column: 1/2;
+  height: 100%;
+}
+
+.section-one__img {
+  lost-align: right flex;
+}
+
+.section-one__text {
+  lost-align: left flex;
+}
+
+.section-one {
+  padding: 35px;
+}
+
+.section-one__text-box {
+  padding: 25px;
+}
+
+.section-two {
+  lost-align: center flex;
+}
+
+.section-two>div {
+  lost-column: 1/3;
+  height: 100%;
+  lost-align: center flex;
 }
