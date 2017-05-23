@@ -20,6 +20,8 @@ var rucksack = require('gulp-rucksack');
 var fontMagician = require('postcss-font-magician');
 var webpack = require('gulp-webpack');
 var lost = require('lost');
+var atImport = require("postcss-import");
+
 
 var devBuild = (process.env.NODE_ENV !== 'production');
 
@@ -73,6 +75,7 @@ gulp.task('js', function() {
 gulp.task('css', ['images', 'fonts'], function() {
 
   var postCssOptions = [
+    atImport(),
     assets({
       loadPaths: ['fonts/', 'images/'],
       basePath: 'src/'
