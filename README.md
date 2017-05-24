@@ -4,7 +4,7 @@
 
 Clone repository
 
-    git clone git@github.com:paweltar/static-site-template-postcss.git my-project-name
+    git clone https://github.com/paweltar/base.git my-project-name
     cd my-project-name
 
 Remove git tracking and initialize your own
