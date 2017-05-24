@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos'
 import Rellax from 'rellax';
 
-$(document).ready(function() {
+$(window).on("load", function(){
   AOS.init({
       disable: window.innerWidth < 960,
       offset: 200,
