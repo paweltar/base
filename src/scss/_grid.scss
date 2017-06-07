@@ -1,9 +1,15 @@
 .section-one {
   min-height: 100vh;
   lost-center: 980px;
+  lost-align: center;
 }
 
-.section-one>div {
+.section-one__content-wrapper {
+  lost-column: 1/1;
+  height: 100%;
+}
+
+.section-one__content-wrapper>div {
   @media (--medium) {
     lost-column: 1/2;
     height: 100%;
@@ -14,7 +20,7 @@
   padding: 25px;
   @media (--medium) {
     padding: 0;
-    lost-align: right flex;
+    lost-align: center flex;
   }
 }
 
@@ -30,21 +36,4 @@
 
 .section-one__text-box {
   padding: 25px;
-}
-
-.section-two {
-  lost-center: 980px;
-  @media (--medium) {
-    padding: 0 35px;
-    lost-align: center flex;
-  }
-}
-
-.section-two>div {
-  padding: 25px;
-  @media (--medium) {
-    lost-column: 1/3;
-    min-height: 500px;
-    lost-align: center flex;
-  }
 }
